@@ -5,8 +5,8 @@
     }
 
     if ($url == '') {
-        require 'homes.php';
-    } elseif ($url[0] == 'accueil' || $url[0] == 'home') {
+        require 'home.php';
+    } elseif ($url[0] == 'accueil') {
         require 'homes.php';
     } elseif ($url[0] == 'développement-web' || $url[0] == 'developpement-web' || $url[0] == 'developpement web' || $url[0] == 'développement web'|| $url[0] == 'developpementweb' || $url[0] == 'développementweb') {
         require 'devlweb.php';
