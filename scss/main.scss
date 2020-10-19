@@ -1,0 +1,25 @@
+@import "./Base/typography.scss";
+@import "./Utils/variables.scss";
+@import "./Layouts/container.scss";
+@import "./Layouts/header.scss";
+@import "./Layouts/content-home.scss";
+@import "./Layouts/content-devl.scss";
+@import "./Layouts/content-webdes.scss";
+@import "./Layouts/content-optiseo.scss";
+@import "./Layouts/content-passions.scss";
+@import "./Layouts/mentionslegales.scss";
+@import "./Layouts/four-oh-four.scss";
+@import "./Layouts/nav.scss";
+@import "./Layouts/breadcrumb.scss";
+@import "./Layouts/sliders.scss";
+@import "./Layouts/contact.scss";
+@import "./Layouts/footer.scss";
+
+html, body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
