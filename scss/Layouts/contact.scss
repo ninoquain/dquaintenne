@@ -1,0 +1,391 @@
+@import '../Base/typography.scss';
+@import '../Utils/variables.scss';
+
+.blocFormulaire {
+    width: 100%;
+    height: auto;
+    font-family: 'montserratlight';
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+
+    &__formulaire {
+        width: 95%;
+        height: auto;
+        background-color: $white-color-link-nav;
+        border: 2px solid $blue-dom-web;
+        border-radius: 3px;
+        font-size: 0.8em;
+        font-weight: bold;
+        padding-bottom: 10px;
+
+        &__h3 {
+            text-align: center;
+            font-size: 1.5em;
+            color: $blue-dom-web;
+        }
+        &__label {
+            color: $blue-dom-web;
+            margin-left: 3%;
+            &__span {
+                color: $green-dom-web;
+            }
+        }
+        &__input {
+
+            width: 90%;
+            height: 35%;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            margin-left: 3%;
+            border: 1px solid $blue-dom-web;
+            border-radius: 3px;
+            padding: 5px;
+           
+
+        }
+        &__textarea {
+            width: 90%;
+            height: 80px;
+            margin-top: 5px;
+            margin-left: 3%;
+            border: 1px solid $green-dom-web;
+            border-radius: 3px;
+            padding: 5px;
+            resize: none;
+        }
+        &__submit {
+            height: 35px;
+            background-color: $blue-dom-web;
+            border: 1px solid $blue-dom-web-dark;
+            border-radius: 3px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-right: 3%;
+            font-family: 'montserratregular';
+            font-weight: bold;
+            color: $white-color-link-nav;
+            float: right;
+        }
+        
+        &__info{
+            font-size: 0.9em;
+            color: $blue-dom-web-dark;
+            letter-spacing: 2px;
+            padding-left: 5px;
+        }
+    }
+}
+
+.succesMessage {
+    background-color: $green-dom-web;
+    border: $green-dom-web-dark 1px solid;
+    padding: 5px 9px;
+    color: $white-color-link-nav;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.errorMessage {
+    background-color: $red-dom-web;
+    border: $red-dom-web-dark 1px solid;
+    padding: 5px 10px;
+    color: $white-color-link-nav;
+    border-radius: 4px;
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    
+    .blocFormulaire {
+        width: 100%;
+        height: auto;
+        font-family: 'montserratlight';
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 2%;
+        margin-right: 2%;
+    
+        &__formulaire {
+            width: 95%;
+            height: auto;
+            background-color: $white-color-link-nav;
+            border: 2px solid $blue-dom-web;
+            border-radius: 3px;
+            font-size: 0.8em;
+            font-weight: bold;
+            padding-bottom: 10px;
+    
+            &__h3 {
+                text-align: center;
+                font-size: 1.5em;
+                color: $blue-dom-web;
+            }
+            &__label {
+                color: $blue-dom-web;
+                margin-left: 3%;
+                &__span {
+                    color: $green-dom-web;
+                }
+            }
+            &__input {
+    
+                width: 90%;
+                height: 35%;
+                margin-top: 5px;
+                margin-bottom: 20px;
+                margin-left: 3%;
+                border: 1px solid $blue-dom-web;
+                border-radius: 3px;
+                padding: 5px;
+               
+    
+            }
+            &__textarea {
+                width: 90%;
+                height: 80px;
+                margin-top: 5px;
+                margin-left: 3%;
+                border: 1px solid $green-dom-web;
+                border-radius: 3px;
+                padding: 5px;
+                resize: none;
+            }
+            &__submit {
+                height: 35px;
+                background-color: $blue-dom-web;
+                border: 1px solid $blue-dom-web-dark;
+                border-radius: 3px;
+                margin-top: 20px;
+                margin-bottom: 30px;
+                margin-right: 3%;
+                font-family: 'montserratregular';
+                font-weight: bold;
+                color: $white-color-link-nav;
+                float: right;
+            }
+            
+            &__info{
+                font-size: 0.9em;
+                color: $blue-dom-web-dark;
+                letter-spacing: 2px;
+                padding-left: 5px;
+            }
+        }
+    }
+    
+    .succesMessage {
+        background-color: $green-dom-web;
+        border: $green-dom-web-dark 1px solid;
+        padding: 5px 9px;
+        color: $white-color-link-nav;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 0.9em;
+    }
+    
+    .errorMessage {
+        background-color: $red-dom-web;
+        border: $red-dom-web-dark 1px solid;
+        padding: 5px 10px;
+        color: $white-color-link-nav;
+        border-radius: 4px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1388px) {
+    .blocFormulaire {
+        width: 80%;
+        height: auto;
+        font-family: 'montserratlight';
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 11%;
+        margin-right: 11%;
+    
+        &__formulaire {
+            width: 95%;
+            height: auto;
+            background-color: $white-color-link-nav;
+            border: 2px solid $blue-dom-web;
+            border-radius: 3px;
+            font-size: 0.8em;
+            font-weight: bold;
+            padding-bottom: 10px;
+    
+            &__h3 {
+                text-align: center;
+                font-size: 1.5em;
+                color: $blue-dom-web;
+            }
+            &__label {
+                color: $blue-dom-web;
+                margin-left: 3%;
+                &__span {
+                    color: $green-dom-web;
+                }
+            }
+            &__input {
+    
+                width: 90%;
+                height: 35%;
+                margin-top: 5px;
+                margin-bottom: 20px;
+                margin-left: 3%;
+                border: 1px solid $blue-dom-web;
+                border-radius: 3px;
+                padding: 5px;
+               
+    
+            }
+            &__textarea {
+                width: 90%;
+                height: 80px;
+                margin-top: 5px;
+                margin-left: 3%;
+                border: 1px solid $green-dom-web;
+                border-radius: 3px;
+                padding: 5px;
+                resize: none;
+            }
+            &__submit {
+                height: 35px;
+                background-color: $blue-dom-web;
+                border: 1px solid $blue-dom-web-dark;
+                border-radius: 3px;
+                margin-top: 20px;
+                margin-bottom: 30px;
+                margin-right: 3%;
+                font-family: 'montserratregular';
+                font-weight: bold;
+                color: $white-color-link-nav;
+                float: right;
+            }
+            
+            &__info{
+                font-size: 0.9em;
+                color: $blue-dom-web-dark;
+                letter-spacing: 2px;
+                padding-left: 5px;
+            }
+        }
+    }
+    
+    .succesMessage {
+        background-color: $green-dom-web;
+        border: $green-dom-web-dark 1px solid;
+        padding: 5px 9px;
+        color: $white-color-link-nav;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 0.9em;
+    }
+    
+    .errorMessage {
+        background-color: $red-dom-web;
+        border: $red-dom-web-dark 1px solid;
+        padding: 5px 10px;
+        color: $white-color-link-nav;
+        border-radius: 4px;
+    }
+    
+}
+
+@media screen and (min-width: 1389px){
+    .blocFormulaire {
+        width: 60%;
+        height: auto;
+        font-family: 'montserratlight';
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 21%;
+        margin-right: 21%;
+    
+        &__formulaire {
+            width: 95%;
+            height: auto;
+            background-color: $white-color-link-nav;
+            border: 2px solid $blue-dom-web;
+            border-radius: 3px;
+            font-size: 0.8em;
+            font-weight: bold;
+            padding-bottom: 10px;
+    
+            &__h3 {
+                text-align: center;
+                font-size: 1.5em;
+                color: $blue-dom-web;
+            }
+            &__label {
+                color: $blue-dom-web;
+                margin-left: 3%;
+                &__span {
+                    color: $green-dom-web;
+                }
+            }
+            &__input {
+    
+                width: 90%;
+                height: 35%;
+                margin-top: 5px;
+                margin-bottom: 20px;
+                margin-left: 3%;
+                border: 1px solid $blue-dom-web;
+                border-radius: 3px;
+                padding: 5px;
+               
+    
+            }
+            &__textarea {
+                width: 90%;
+                height: 80px;
+                margin-top: 5px;
+                margin-left: 3%;
+                border: 1px solid $green-dom-web;
+                border-radius: 3px;
+                padding: 5px;
+                resize: none;
+            }
+            &__submit {
+                height: 35px;
+                background-color: $blue-dom-web;
+                border: 1px solid $blue-dom-web-dark;
+                border-radius: 3px;
+                margin-top: 20px;
+                margin-bottom: 30px;
+                margin-right: 3%;
+                font-family: 'montserratregular';
+                font-weight: bold;
+                color: $white-color-link-nav;
+                float: right;
+            }
+            
+            &__info{
+                font-size: 0.9em;
+                color: $blue-dom-web-dark;
+                letter-spacing: 2px;
+                padding-left: 5px;
+            }
+        }
+    }
+    
+    .succesMessage {
+        background-color: $green-dom-web;
+        border: $green-dom-web-dark 1px solid;
+        padding: 5px 9px;
+        color: $white-color-link-nav;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 0.9em;
+    }
+    
+    .errorMessage {
+        background-color: $red-dom-web;
+        border: $red-dom-web-dark 1px solid;
+        padding: 5px 10px;
+        color: $white-color-link-nav;
+        border-radius: 4px;
+    }
+    
+}

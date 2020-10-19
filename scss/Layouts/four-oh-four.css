@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'julius_sans_oneregular';
+  src: url("../fonts/juliussansone-regular-webfont.woff2") format("woff2"), url("../fonts/juliussansone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratthin';
+  src: url("../fonts/montserrat-thin-webfont.woff2") format("woff2"), url("../fonts/montserrat-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratregular';
+  src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratmedium';
+  src: url("../fonts/montserrat-medium-webfont.woff2") format("woff2"), url("../fonts/montserrat-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratlight';
+  src: url("../fonts/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'julius_sans_oneregular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+p {
+  font-family: "montserratregular", Verdana, Geneva, Tahoma, sans-serif; }
+
+a {
+  font-family: 'montserratmedium';
+  text-decoration: none; }
+
+.fourOhFour {
+  width: 90%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 5px; }
+  .fourOhFour__h1 {
+    font-family: 'montserratmedium';
+    font-style: oblique;
+    font-size: 6em;
+    color: #FFFFFF;
+    text-align: center; }
+  .fourOhFour__p {
+    font-family: 'montserratthin';
+    font-weight: bold;
+    font-size: 2em;
+    color: #FFFFFF;
+    text-align: center; }
+
+/*# sourceMappingURL=four-oh-four.css.map */

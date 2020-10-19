@@ -1,0 +1,157 @@
+@font-face {
+  font-family: 'julius_sans_oneregular';
+  src: url("../fonts/juliussansone-regular-webfont.woff2") format("woff2"), url("../fonts/juliussansone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratthin';
+  src: url("../fonts/montserrat-thin-webfont.woff2") format("woff2"), url("../fonts/montserrat-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratregular';
+  src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratmedium';
+  src: url("../fonts/montserrat-medium-webfont.woff2") format("woff2"), url("../fonts/montserrat-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratlight';
+  src: url("../fonts/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'julius_sans_oneregular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+p {
+  font-family: "montserratregular", Verdana, Geneva, Tahoma, sans-serif; }
+
+a {
+  font-family: 'montserratmedium';
+  text-decoration: none; }
+
+.contentMentionslLegales {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0; }
+  .contentMentionslLegales__introduction {
+    width: 95%;
+    height: auto;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto; }
+    .contentMentionslLegales__introduction__sectionIntro {
+      width: 100%;
+      height: auto; }
+      .contentMentionslLegales__introduction__sectionIntro__h2 {
+        text-align: center;
+        font-family: 'julius_sans_oneregular';
+        font-size: 1.5em;
+        color: #FFFFFF; }
+  .contentMentionslLegales__content {
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; }
+    .contentMentionslLegales__content__sectionImpaire {
+      width: 100%;
+      height: auto;
+      margin-bottom: 15%; }
+      .contentMentionslLegales__content__sectionImpaire__h2 {
+        text-align: left;
+        font-family: 'montserratmedium';
+        font-size: 1em;
+        color: #6EF6C6; }
+      .contentMentionslLegales__content__sectionImpaire__p {
+        font-family: 'montserratregular';
+        font-size: 0.7em;
+        text-align: justify;
+        line-height: 180%; }
+        .contentMentionslLegales__content__sectionImpaire__p__a {
+          font-family: 'montserratlight';
+          font-style: oblique;
+          color: #6EF6C6; }
+          .contentMentionslLegales__content__sectionImpaire__p__a:hover {
+            color: #5592E8; }
+    .contentMentionslLegales__content__sectionPaire {
+      width: 100%;
+      height: auto;
+      margin-bottom: 15%; }
+      .contentMentionslLegales__content__sectionPaire__h2 {
+        text-align: left;
+        font-family: 'montserratmedium';
+        font-size: 1em;
+        color: #5592E8; }
+      .contentMentionslLegales__content__sectionPaire__p {
+        font-family: 'montserratregular';
+        font-size: 0.7em;
+        text-align: justify;
+        line-height: 180%; }
+        .contentMentionslLegales__content__sectionPaire__p__a {
+          font-family: 'montserratlight';
+          font-style: oblique;
+          color: #5592E8; }
+          .contentMentionslLegales__content__sectionPaire__p__a:hover {
+            color: #6EF6C6; }
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .contentMentionslLegales__content {
+    margin-top: 10%; }
+    .contentMentionslLegales__content__sectionImpaire {
+      margin-bottom: 10%; }
+      .contentMentionslLegales__content__sectionImpaire__h2 {
+        margin-bottom: 6%; }
+      .contentMentionslLegales__content__sectionImpaire__p {
+        letter-spacing: 0.1em;
+        margin-bottom: 3%; }
+    .contentMentionslLegales__content__sectionPaire {
+      margin-bottom: 10%; }
+      .contentMentionslLegales__content__sectionPaire__h2 {
+        margin-bottom: 6%; }
+      .contentMentionslLegales__content__sectionPaire__p {
+        letter-spacing: 0.1em;
+        margin-bottom: 3%; } }
+@media screen and (min-width: 768px) and (max-width: 1388px) {
+  .contentMentionslLegales__content {
+    margin-top: 8%; }
+    .contentMentionslLegales__content__sectionImpaire {
+      margin-bottom: 7%; }
+      .contentMentionslLegales__content__sectionImpaire__h2 {
+        font-size: 1.2em;
+        margin-bottom: 4%; }
+      .contentMentionslLegales__content__sectionImpaire__p {
+        font-size: 0.75em;
+        line-height: 180%; }
+    .contentMentionslLegales__content__sectionPaire {
+      margin-bottom: 7%; }
+      .contentMentionslLegales__content__sectionPaire__h2 {
+        font-size: 1.2em;
+        margin-bottom: 4%; }
+      .contentMentionslLegales__content__sectionPaire__p {
+        font-size: 0.75em;
+        line-height: 180%; } }
+@media screen and (min-width: 1389px) {
+  .contentMentionslLegales__content {
+    margin-top: 5%; }
+    .contentMentionslLegales__content__sectionImpaire {
+      margin-bottom: 5%; }
+      .contentMentionslLegales__content__sectionImpaire__h2 {
+        font-size: 1.2em;
+        margin-bottom: 2%; }
+      .contentMentionslLegales__content__sectionImpaire__p {
+        font-size: 0.8em;
+        line-height: 200%; }
+    .contentMentionslLegales__content__sectionPaire {
+      margin-bottom: 5%; }
+      .contentMentionslLegales__content__sectionPaire__h2 {
+        font-size: 1.2em;
+        margin-bottom: 2%; }
+      .contentMentionslLegales__content__sectionPaire__p {
+        font-size: 0.8em;
+        line-height: 200%; } }
+
+/*# sourceMappingURL=mentionslegales.css.map */

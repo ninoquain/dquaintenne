@@ -1,0 +1,1636 @@
+@import '../Utils/variables.scss';
+@import '../Base/typography.scss';
+
+.contentDevl {
+
+    &__firstSection {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        padding-top: 220px;
+        
+        &__presentation {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: auto;
+
+            &__containerArticle {
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+
+                &__article {
+                    &__h2 {
+                        font-size: 1em;
+                        line-height: 1.4em;
+                        animation-name: animationTitle;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+
+                    &__h3 {
+                        font-size: 0.8em;
+                        line-height: 1.4em;
+                        animation-name: animationTitle;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+                    &__h4 {
+                        font-size: 0.7em;
+                        line-height: 1.4em;
+                        animation-name: animationTitle;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+
+                    &__p {
+                        font-size: 0.7em;
+                        text-align: justify;
+                        line-height: 180%;
+                        letter-spacing: 0.1em;
+
+                        &__spanBlue{
+                            color: $blue-dom-web;
+                            font-weight: bold;
+                        }
+                        &__spanGreen {
+                            color: $green-dom-web-dark;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+            &__containerPicture {
+                width: 99%;
+                margin-top: 30px;
+                text-align: center;
+                animation-name: animationPicture;
+                animation-duration: 1000ms;
+                animation-fill-mode: both;
+            }
+        }
+
+        &__gallery {
+            width: 100%;
+            height: auto;
+            margin-top: 50px;
+            margin-bottom: 50px; 
+            animation-name: animationPicture;
+            animation-duration: 1000ms;
+            animation-fill-mode: both;          
+            
+            &__ul {
+                list-style-type: none;
+                width: 82%;
+                height: auto;
+                margin-top: 0px;
+                text-align: center;
+                
+                &__li {
+                    display: inline-block;
+                    text-align: center;
+                    width: 200px;
+                    height: 200px;
+                    margin-bottom: 60px;
+                    background-color: $white-color-link-nav;
+                    border: solid 2px $green-dom-web;
+                    border-radius: 6px;
+                    margin-right: auto;
+                    margin-left: auto;
+                    box-shadow: 1px 1px 1px 0.5px $green-dom-web;
+                    
+                    &__img {
+                        width: 100px;
+                        height: 100px;
+                        margin-top: 30px;
+                    }
+                    &__h3 {
+                        font-size: 0.8em;
+                        color: $blue-dom-web;
+                        line-height: 1.4em;
+                    }
+                }
+            }
+        }
+    }
+
+    &__secondSection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        
+
+        &__presentation {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: auto;
+
+            &__containerPicture {
+                width: 99%;
+                margin-top: 30px;
+                text-align: center;
+                animation-name: animationPicture;
+                animation-duration: 1000ms;
+                animation-fill-mode: both;
+            }
+
+            &__containerArticle {
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+
+                &__article {
+                    &__h2 {
+                        font-size: 1em;
+                        line-height: 1.4em;
+                        animation-name: animationTitle;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+                    &__h3 {
+                        font-size: 0.8em;
+                        line-height: 1.4em;
+                        animation-name: animationTitle;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+                    &__h4 {
+                        font-size: 0.7em;
+                        line-height: 1.4em;
+                        animation-name: animationTitle;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+                    &__p {
+                        margin-bottom: 10%;
+                        font-size: 0.7em;
+                        text-align: justify;
+                        line-height: 180%;
+                        letter-spacing: 0.1em;
+                    }
+                }
+            }
+        }
+
+        &__gallery {
+            width: 100%;
+            height: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            animation-name: animationPicture;
+            animation-duration: 1000ms;
+            animation-fill-mode: both;
+            
+            &__ul {
+                list-style-type: none;
+                display: flex;
+                flex-flow: column;
+                width: 82%;
+                height: auto;
+                margin-top: 0px;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+
+                &__li {
+
+                    display: inline-block;                                  
+                    text-align: center;
+                    width: 200px;
+                    height: 200px;
+                    margin-bottom: 60px;
+                    background-color: $white-color-link-nav;
+                    border: solid 2px $blue-dom-web;
+                    border-radius: 6px;
+                    margin-right: auto;
+                    margin-left: auto;
+                    box-shadow: 1px 1px 1px 0.5px $blue-dom-web-dark;
+                   
+                    &__img {
+                        width: 100px;
+                        height: 100px;
+                        margin-top: 30px;
+                    }
+                    &__h3 {
+                        font-size: 0.8em;
+                        color: $blue-dom-web;
+                        line-height: 1.4em;
+                    }
+                }
+            }
+        }
+
+        &__parcours {
+            width: 70%;
+            height: auto;
+            margin-top: -40px;
+            margin-left: 15%;
+            margin-right: 15%;
+            text-align: center;
+            &__parcourus {
+                &__counter {
+                    font-family: 'montserratmedium';
+                    font-size: 5em;
+                    font-weight: bold;
+                    color: $white-color-link-nav;
+                }
+                
+            }
+
+            &__certificats {
+                &__counter {
+                    font-family: 'montserratmedium';
+                    font-size: 5em;
+                    font-weight: bold;
+                    color: $white-color-link-nav;
+                }
+
+            }
+
+            &__cours {
+                &__counter {
+                    font-family: 'montserratmedium';
+                    font-size: 5em;
+                    font-weight: bold;
+                    color: $white-color-link-nav;
+                }
+            }
+
+            &__quoi {
+                margin-top: -50px;
+                font-family: 'montserratlight';
+                font-size: 1em;
+                font-weight: normal;
+                color: $white-color-link-nav;
+            }
+            &__precision {
+                font-family: 'montserratregular';
+                font-size: 1em;
+                font-weight: normal;
+                
+                &__ul {
+                    list-style: square;
+                    margin-left: -10%;
+                    &__li {
+                        line-height: 2em;
+                    }
+                }
+            }
+        }
+    }
+
+    &__thirdSection {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+
+        &__presentation {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: auto;
+
+            &__containerArticle {
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                &__article {
+                    &__h2 {
+                        font-size: 1em;
+                        line-height: 1.4em;
+                        animation-name: animationTitle;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+        
+                    &__p {
+                        margin-bottom: 10%;
+                        font-size: 0.7em;
+                        text-align: justify;
+                        line-height: 180%;
+                        letter-spacing: 0.1em;
+
+                        &__strongBlue {
+                            color: $blue-dom-web;
+                            font-weight: bold;
+                        }
+
+                        &__strongGreen {
+                            color: $green-dom-web-dark;
+                        }
+                    }
+                }
+            }
+            &__containerPicture {
+                width: 99%;
+                margin-top: 30px;
+                text-align: center;
+                animation-name: animationPicture;
+                animation-duration: 1000ms;
+                animation-fill-mode: both;
+            }
+        }
+
+        &__gallery {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-flow: row;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            padding-right: 2%;
+            padding-left: 2%;
+
+            &__a {
+                margin-top: 10%;
+                margin-left: 20%;
+                width: 50%;
+                text-align: center;
+                text-align: center;
+
+                &__img{  
+                    border: 2px solid $blue-dom-web;
+                    border-radius: 3px;
+                    box-shadow: 1px 1px 1px 0.5px $blue-dom-web-dark; 
+                    width: 200px;
+                    height: 200px;
+                    text-align: center;
+
+                }
+
+                &__h3 {
+                    margin-top: -50px;
+                    font-size: 0.8em;
+                    color: $blue-dom-web;
+
+                }
+            }  
+        }
+
+        &__footerBanner {
+                width: 100%;
+                margin-top: 20%;
+                margin-left: 0%;
+                margin-bottom: -50px;
+                min-height: 234px;
+                max-height: auto;
+                background-size: cover;
+                background-position-y: center;
+        }
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .contentDevl {
+
+        &__firstSection {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: auto;
+            margin-top: 30px;
+            
+            &__presentation {
+                display: flex;
+                flex-flow: column;
+                width: 100%;
+                height: auto;
+    
+                &__containerArticle {
+                    width: 90%;
+                    margin-left: auto;
+                    margin-right: auto;
+    
+                    &__article {
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+    
+                        &__h3 {
+                            font-size: 0.8em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        &__h4 {
+                            font-size: 0.7em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+    
+                        &__p {
+                            margin-bottom: 3%;
+                            font-size: 0.7em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+    
+                            &__spanBlue{
+                                color: $blue-dom-web;
+                                font-weight: bold;
+                            }
+                            &__spanGreen {
+                                color: $green-dom-web-dark;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+                &__containerPicture {
+                    width: 99%;
+                    margin-top: 30px;
+                    text-align: center;
+                    animation-name: animationPicture;
+                    animation-duration: 1000ms;
+                    animation-fill-mode: both;
+                }
+            }
+    
+            &__gallery {
+                width: 100%;
+                height: auto;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                animation-name: animationPicture;
+                animation-duration: 1000ms;
+                animation-fill-mode: both;
+                
+                &__ul {
+                    list-style-type: none;
+                    width: 82%;
+                    height: auto;
+                    margin-top: 0px;
+                    text-align: center; 
+    
+                    &__li {
+                        display: inline-block;
+                        text-align: center;
+                        width: 200px;
+                        height: 200px;
+                        margin-bottom: 20px;
+                        background-color: $white-color-link-nav;
+                        border: solid 2px $green-dom-web;
+                        border-radius: 6px;
+                        box-shadow: 1px 1px 1px 0.5px $green-dom-web;
+                        
+                        &__img {
+                            width: 100px;
+                            height: 100px;
+                            margin-top: 30px;
+                        }
+                        &__h3 {
+                            font-size: 0.8em;
+                            color: $blue-dom-web;
+                            line-height: 1.4em;
+                        }
+                    }
+                }
+            }
+        }
+    
+        &__secondSection {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            
+    
+            &__presentation {
+                display: flex;
+                flex-flow: column;
+                width: 100%;
+                height: auto;
+    
+                &__containerPicture {
+                    width: 99%;
+                    margin-top: 30px;
+                    text-align: center;
+                    animation-name: animationPicture;
+                    animation-duration: 1000ms;
+                    animation-fill-mode: both;
+                }
+    
+                &__containerArticle {
+                    width: 90%;
+                    margin-left: auto;
+                    margin-right: auto;
+    
+                    &__article {
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        &__h3 {
+                            font-size: 0.8em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        &__h4 {
+                            font-size: 0.7em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        &__p {
+                            margin-bottom: 3%;
+                            font-size: 0.7em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+                        }
+                    }
+                }
+            }
+    
+            &__gallery {
+                width: 100%;
+                height: auto;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                animation-name: animationPicture;
+                animation-duration: 1000ms;
+                animation-fill-mode: both;
+               
+                &__ul {
+                    list-style-type: none;
+                    width: 82%;
+                    height: auto;
+                    margin-top: 0px;
+                    margin-left: -1%;
+                    text-align: center;
+                    
+    
+                    &__li {
+                        display: inline-block;
+                        text-align: center;
+                        width: 200px;
+                        height: 200px;
+                        margin-bottom: 20px;
+                        background-color: $white-color-link-nav;
+                        border: solid 2px $blue-dom-web;
+                        border-radius: 6px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        box-shadow: 1px 1px 1px 0.5px $blue-dom-web-dark;
+                       
+                        &__img {
+                            width: 100px;
+                            height: 100px;
+                            margin-top: 30px;
+                        }
+                        &__h3 {
+                            font-size: 0.8em;
+                            color: $blue-dom-web;
+                            line-height: 1.4em;
+                        }
+                    }
+                }
+            }
+    
+            &__parcours {
+                width: 70%;
+                height: auto;
+                margin-top: -40px;
+                text-align: center;
+
+
+                &__parcourus {
+                    &__counter {
+                        font-family: 'montserratmedium';
+                        font-size: 5em;
+                        font-weight: bold;
+                        color: $white-color-link-nav;
+                    }
+                    
+                }
+    
+                &__certificats {
+                    &__counter {
+                        font-family: 'montserratmedium';
+                        font-size: 5em;
+                        font-weight: bold;
+                        color: $white-color-link-nav;
+                    }
+    
+                }
+    
+                &__cours {
+                    &__counter {
+                        font-family: 'montserratmedium';
+                        font-size: 5em;
+                        font-weight: bold;
+                        color: $white-color-link-nav;
+                    }
+                }
+    
+                &__quoi {
+                    margin-top: -50px;
+                    font-family: 'montserratlight';
+                    font-size: 1em;
+                    font-weight: normal;
+                    color: $white-color-link-nav;
+                }
+                &__precision {
+                    font-family: 'montserratregular';
+                    font-size: 1em;
+                    font-weight: normal;
+                    
+                    &__ul {
+                        list-style: square;
+                        margin-left: -10%;
+                        &__li {
+                            line-height: 2em;
+                        }
+                    }
+                }
+            }
+        }
+    
+        &__thirdSection {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: auto;
+            margin-top: 30px;
+    
+            &__presentation {
+                display: flex;
+                flex-flow: column;
+                width: 100%;
+                height: auto;
+    
+                &__containerArticle {
+                    width: 90%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    &__article {
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        
+                        &__p {
+                            margin-bottom: 3%;
+                            font-size: 0.7em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+    
+                            &__strongBlue {
+                                color: $blue-dom-web;
+                                font-weight: bold;
+                            }
+    
+                            &__strongGreen {
+                                color: $green-dom-web-dark;
+                            }
+                        }
+                    }
+                }
+                &__containerPicture {
+                    width: 99%;
+                    margin-top: 30px;
+                    text-align: center;
+                    animation-name: animationPicture;
+                    animation-duration: 1000ms;
+                    animation-fill-mode: both;
+                }
+            }
+    
+            &__gallery {
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-flow: row;
+                flex-wrap: wrap;
+                margin-top: 20px;
+                padding-right: 2%;
+                padding-left: 2%;
+    
+                &__a {
+                    margin-top: 10%;
+                    margin-left: 20%;
+                    width: 50%;
+                    text-align: center;
+                    text-align: center;
+    
+                    &__img{  
+                        border: 2px solid $blue-dom-web;
+                        border-radius: 3px;
+                        box-shadow: 1px 1px 1px 0.5px $blue-dom-web-dark; 
+                        width: 200px;
+                        height: 200px;
+                        text-align: center;
+    
+                    }
+    
+                    &__h3 {
+                        margin-top: -50px;
+                        font-size: 0.8em;
+                        color: $blue-dom-web;
+    
+                    }
+                }  
+            }
+    
+            &__footerBanner {
+                    
+                    width: 100%;
+                    min-height: 234px;
+                    max-height: 351px;
+                    margin-left: 0%;
+                    background-size: cover;
+                    background-position-y: center;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1388px) {
+    .contentDevl {
+
+        &__firstSection {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: auto;
+            margin-top: 30px;
+            
+            &__presentation {
+                display: flex;
+                flex-flow: row wrap;
+                width: 90%;
+                height: auto;
+    
+                &__containerArticle {
+                    width: 45%;
+    
+                    &__article {
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+    
+                        &__h3 {
+                            font-size: 0.8em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        &__h4 {
+                            font-size: 0.7em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+    
+                        &__p {
+                            margin-bottom: 3%;
+                            font-size: 0.7em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+    
+                            &__spanBlue{
+                                color: $blue-dom-web;
+                                font-weight: bold;
+                            }
+                            &__spanGreen {
+                                color: $green-dom-web-dark;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+                &__containerPicture {
+                    width: 45%;
+                    margin-top: 20px;
+                    animation-name: animationPicture;
+                    animation-duration: 1000ms;
+                    animation-fill-mode: both;
+                }
+            }
+    
+            &__gallery {
+                width: 100%;
+                height: auto;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                animation-name: animationPicture;
+                animation-duration: 1000ms;
+                animation-fill-mode: both;
+                
+                &__ul {
+                    list-style-type: none;
+                    width: 90%;
+                    height: auto;
+                    margin-top: 0px;
+                    text-align: center; 
+    
+                    &__li {
+                        display: inline-block;
+                        text-align: center;
+                        width: 200px;
+                        height: 200px;
+                        margin-bottom: 20px;
+                        margin-right: 1%;
+                        margin-left: 1%;
+                        background-color: $white-color-link-nav;
+                        border: solid 2px $green-dom-web;
+                        border-radius: 6px;
+                        box-shadow: 1px 1px 1px 0.5px $green-dom-web;
+                        
+                        &__img {
+                            width: 100px;
+                            height: 100px;
+                            margin-top: 30px;
+                        }
+                        &__h3 {
+                            font-size: 0.8em;
+                            color: $blue-dom-web;
+                            line-height: 1.4em;
+                        }
+                    }
+                }
+            }
+        }
+    
+        &__secondSection {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            
+    
+            &__presentation {
+                display: flex;
+                flex-flow: row wrap;
+                width: 90%;
+                height: auto;
+                margin-left: 5%;
+    
+                &__containerPicture {
+                    width: 45%;
+                    margin-top: 20px;
+                    animation-name: animationPicture;
+                    animation-duration: 1000ms;
+                    animation-fill-mode: both;
+                }
+    
+                &__containerArticle {
+                    width: 45%;
+                    margin-left: 8%;
+                    &__article {
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        &__h3 {
+                            font-size: 0.8em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        &__h4 {
+                            font-size: 0.7em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        &__p {
+                            margin-bottom: 3%;
+                            font-size: 0.7em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+                        }
+                    }
+                }
+            }
+    
+            &__gallery {
+                width: 100%;
+                height: auto;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                animation-name: animationPicture;
+                animation-duration: 1000ms;
+                animation-fill-mode: both;
+               
+                &__ul {
+                    display: flex;
+                    flex-flow: row;
+                    list-style-type: none;
+                    width: 90%;
+                    height: auto;
+                    margin-top: 0px;
+                    margin-left: 0%;  
+                    margin-right: 0%;              
+    
+                    &__li {
+                        display: inline-block;
+                        text-align: center;
+                        width: 200px;
+                        height: 200px;
+                        margin-bottom: 20px;
+                        background-color: $white-color-link-nav;
+                        border: solid 2px $blue-dom-web;
+                        border-radius: 6px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        box-shadow: 1px 1px 1px 0.5px $blue-dom-web-dark;
+                       
+                        &__img {
+                            width: 100px;
+                            height: 100px;
+                            margin-top: 30px;
+                        }
+                        &__h3 {
+                            font-size: 0.8em;
+                            color: $blue-dom-web;
+                            line-height: 1.4em;
+                        }
+                    }
+                }
+            }
+    
+            &__parcours {
+                width: 85%;
+                display: flex;
+                flex-flow: row;
+                height: auto;
+                margin-top: -40px;
+                margin-left: 7%;
+                margin-bottom: 30px;
+                text-align: center;
+                
+
+                &__parcourus {
+                    border: 1px solid $white-color-link-nav;
+                    border-radius: 5px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-left: 2%;
+                    padding-right: 2%;
+
+                    &__counter {
+                        font-family: 'montserratmedium';
+                        font-size: 5em;
+                        font-weight: bold;
+                        color: $white-color-link-nav;
+                    }
+                    
+                }
+    
+                &__certificats {
+                    border: 1px solid $white-color-link-nav;
+                    border-radius: 5px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-left: 2%;
+                    padding-right: 2%;
+
+                    &__counter {
+                        font-family: 'montserratmedium';
+                        font-size: 5em;
+                        font-weight: bold;
+                        color: $white-color-link-nav;
+                    }
+    
+                }
+    
+                &__cours {
+                    border: 1px solid $white-color-link-nav;
+                    border-radius: 5px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-left: 2%;
+                    padding-right: 2%;
+
+                    &__counter {
+                        font-family: 'montserratmedium';
+                        font-size: 5em;
+                        font-weight: bold;
+                        color: $white-color-link-nav;
+                    }
+                }
+    
+                &__quoi {
+                    margin-top: -50px;
+                    font-family: 'montserratlight';
+                    font-size: 1em;
+                    font-weight: normal;
+                    color: $white-color-link-nav;
+                }
+                &__precision {
+                    font-family: 'montserratregular';
+                    font-size: 1em;
+                    font-weight: normal;
+                    
+                    &__ul {
+                        list-style: square;
+                        margin-left: -10%;
+                        &__li {
+                            line-height: 2em;
+                        }
+                    }
+                }
+            }
+        }
+    
+        &__thirdSection {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: auto;
+            margin-top: 30px;
+    
+            &__presentation {
+                display: flex;
+                flex-flow: row wrap;
+                width: 90%;
+                height: auto;
+    
+                &__containerArticle {
+                    width: 45%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    &__article {
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        
+                        &__p {
+                            margin-bottom: 3%;
+                            font-size: 0.7em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+    
+                            &__strongBlue {
+                                color: $blue-dom-web;
+                                font-weight: bold;
+                            }
+    
+                            &__strongGreen {
+                                color: $green-dom-web-dark;
+                            }
+                        }
+                    }
+                }
+                &__containerPicture {
+                    width: 45%;
+                    margin-top: 30px;
+                    animation-name: animationPicture;
+                    animation-duration: 1000ms;
+                    animation-fill-mode: both;
+                }
+            }
+    
+            &__gallery {
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-flow: row;
+                flex-wrap: wrap;
+                margin-top: 20px;
+                padding-right: 2%;
+                padding-left: 2%;
+    
+                &__a {
+                    margin-top: 10%;
+                    margin-left: 22%;
+                    width: 50%;
+                    text-align: center;
+                    text-align: center;
+    
+                    &__img{  
+                        border: 2px solid $blue-dom-web;
+                        border-radius: 3px;
+                        box-shadow: 1px 1px 1px 0.5px $blue-dom-web-dark; 
+                        width: 200px;
+                        height: 200px;
+                        text-align: center;
+    
+                    }
+    
+                    &__h3 {
+                        margin-top: -50px;
+                        font-size: 0.8em;
+                        color: $blue-dom-web;
+    
+                    }
+                }  
+            }
+    
+            &__footerBanner {
+                    width: 100%;
+                    min-height: 234px;
+                    max-height: 351px;
+                    margin-left: 0%;
+                    background-size: cover;
+                    background-position-y: center;
+            }
+        }
+    }
+    
+}
+
+@media screen and (min-width: 1389px){
+    .contentDevl {
+
+        &__firstSection {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: auto;
+            margin-top: 70px;
+            
+            &__presentation {
+                display: flex;
+                flex-flow: row wrap;
+                width: 98%;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+
+                &__containerArticle {
+                    width: 70%;
+                    margin-left: 3%;
+
+
+                    &__article {
+                        width: 85%;
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+    
+                        &__h3 {
+                            font-size: 0.8em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        &__h4 {
+                            font-size: 0.7em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+    
+                        &__p {
+                            margin-bottom: 2%;
+                            font-size: 0.8em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+    
+                            &__spanBlue{
+                                color: $blue-dom-web;
+                                font-weight: bold;
+                            }
+                            &__spanGreen {
+                                color: $green-dom-web-dark;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+                &__containerPicture {
+                    width: 20%;
+                    margin-top: 0;
+                    padding-top: 15px;
+                    margin-right: 4%;
+                    animation-name: animationPicture;
+                    animation-duration: 1000ms;
+                    animation-fill-mode: both;
+                }
+            }
+    
+            &__gallery {
+                width: 100%;
+                height: auto;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                animation-name: animationPicture;
+                animation-duration: 1000ms;
+                animation-fill-mode: both;
+                
+                &__ul {
+                    list-style-type: none;
+                    width: 90%;
+                    height: auto;
+                    margin-top: 0px;
+                    text-align: center; 
+    
+                    &__li {
+                        display: inline-block;
+                        text-align: center;
+                        width: 200px;
+                        height: 200px;
+                        margin-bottom: 20px;
+                        margin-right: 1%;
+                        margin-left: 1%;
+                        background-color: $white-color-link-nav;
+                        border: solid 2px $green-dom-web;
+                        border-radius: 6px;
+                        box-shadow: 1px 1px 1px 0.5px $green-dom-web;
+                        
+                        &__img {
+                            width: 100px;
+                            height: 100px;
+                            margin-top: 30px;
+                        }
+                        &__h3 {
+                            font-size: 0.8em;
+                            color: $blue-dom-web;
+                            line-height: 1.4em;
+                        }
+                    }
+                }
+            }
+        }
+    
+        &__secondSection {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            
+    
+            &__presentation {
+                display: flex;
+                flex-flow: row wrap;
+                width: 98%;
+                height: auto;
+                margin-left: auto;
+                margin-top: auto;
+                
+    
+                &__containerPicture {
+                    width: 20%;
+                    margin-top: 0; 
+                    padding-top: 15px;
+                    margin-left: 2%;
+                    animation-name: animationPicture;
+                    animation-duration: 1000ms;
+                    animation-fill-mode: both;
+                }
+    
+                &__containerArticle {
+                    width: 70%;
+                    margin-left: 7%;
+
+                    &__article {
+                        width: 94%;
+
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        &__h3 {
+                            font-size: 0.8em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        &__h4 {
+                            font-size: 0.7em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        &__p {
+                            margin-bottom: 2%;
+                            font-size: 0.8em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+                        }
+                    }
+                }
+            }
+    
+            &__gallery {
+                width: 100%;
+                height: auto;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                animation-name: animationPicture;
+                animation-duration: 1000ms;
+                animation-fill-mode: both;
+               
+                &__ul {
+                    display: flex;
+                    flex-flow: row;
+                    list-style-type: none;
+                    width: 90%;
+                    height: auto;
+                    margin-top: 0px;
+                    margin-left: 0%;  
+                    margin-right: 0%;              
+    
+                    &__li {
+                        display: inline-block;
+                        text-align: center;
+                        width: 200px;
+                        height: 200px;
+                        margin-bottom: 20px;
+                        background-color: $white-color-link-nav;
+                        border: solid 2px $blue-dom-web;
+                        border-radius: 6px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        box-shadow: 1px 1px 1px 0.5px $blue-dom-web-dark;
+                       
+                        &__img {
+                            width: 100px;
+                            height: 100px;
+                            margin-top: 30px;
+                        }
+                        &__h3 {
+                            font-size: 0.8em;
+                            color: $blue-dom-web;
+                            line-height: 1.4em;
+                        }
+                    }
+                }
+            }
+    
+            &__parcours {
+                width: 85%;
+                display: flex;
+                flex-flow: row;
+                height: auto;
+                margin-top: -40px;
+                margin-left: 7%;
+                margin-bottom: 30px;
+                text-align: center;
+                
+
+                &__parcourus {
+                    border: 1px solid $white-color-link-nav;
+                    border-radius: 5px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-left: 2%;
+                    padding-right: 2%;
+
+                    &__counter {
+                        font-family: 'montserratmedium';
+                        font-size: 5em;
+                        font-weight: bold;
+                        color: $white-color-link-nav;
+                    }
+                    
+                }
+    
+                &__certificats {
+                    border: 1px solid $white-color-link-nav;
+                    border-radius: 5px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-left: 2%;
+                    padding-right: 2%;
+
+                    &__counter {
+                        font-family: 'montserratmedium';
+                        font-size: 5em;
+                        font-weight: bold;
+                        color: $white-color-link-nav;
+                    }
+    
+                }
+    
+                &__cours {
+                    border: 1px solid $white-color-link-nav;
+                    border-radius: 5px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-left: 2%;
+                    padding-right: 2%;
+
+                    &__counter {
+                        font-family: 'montserratmedium';
+                        font-size: 5em;
+                        font-weight: bold;
+                        color: $white-color-link-nav;
+                    }
+                }
+    
+                &__quoi {
+                    margin-top: -50px;
+                    font-family: 'montserratlight';
+                    font-size: 1em;
+                    font-weight: normal;
+                    color: $white-color-link-nav;
+                }
+                &__precision {
+                    font-family: 'montserratregular';
+                    font-size: 1em;
+                    font-weight: normal;
+                    
+                    &__ul {
+                        list-style: square;
+                        margin-left: -10%;
+                        &__li {
+                            line-height: 2em;
+                        }
+                    }
+                }
+            }
+        }
+    
+        &__thirdSection {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: auto;
+            margin-top: 30px;
+    
+            &__presentation {
+                display: flex;
+                flex-flow: row wrap;
+                width: 98%;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                
+    
+                &__containerArticle {
+                    width: 70%;
+                    margin-left: 1%;
+                 
+
+                    &__article {
+                        width: 90%;
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                       
+                        &__p {
+                            margin-bottom: 2%;
+                            font-size: 0.8em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+    
+                            &__strongBlue {
+                                color: $blue-dom-web;
+                                font-weight: bold;
+                            }
+    
+                            &__strongGreen {
+                                color: $green-dom-web-dark;
+                            }
+                        }
+                    }
+                }
+                &__containerPicture {
+                    width: 20%;
+                    margin-top: 0;
+                    margin-right: 5%;
+                    animation-name: animationPicture;
+                    animation-duration: 1000ms;
+                    animation-fill-mode: both;
+                }
+            }
+    
+            &__gallery {
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-flow: row;
+                flex-wrap: wrap;
+                margin-top: 20px;
+                padding-right: 2%;
+                padding-left: 2%;
+    
+                &__a {
+                    margin-top: 10%;
+                    margin-left: 22%;
+                    width: 50%;
+                    text-align: center;
+                    text-align: center;
+    
+                    &__img{  
+                        border: 2px solid $blue-dom-web;
+                        border-radius: 3px;
+                        box-shadow: 1px 1px 1px 0.5px $blue-dom-web-dark; 
+                        width: 200px;
+                        height: 200px;
+                        text-align: center;
+    
+                    }
+    
+                    &__h3 {
+                        margin-top: -50px;
+                        font-size: 0.8em;
+                        color: $blue-dom-web;
+    
+                    }
+                }  
+            }
+    
+            &__footerBanner {
+                    width: 100%;
+                    min-height: 234px;
+                    max-height: 351px;
+                    margin-left: 0%;
+                    background-size: cover;
+                    background-position-y: center;
+            }
+        }
+    }
+    
+}
+
+@keyframes animationTitle {
+    0% {
+        opacity: 0;
+        transform: translateY(15%);
+    }
+    25% {
+        opacity: 0.25;
+        transform: translateY(8%);
+    }
+    65% {
+        opacity: 0.75;
+        transform: translateY(5%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes animationPicture {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}

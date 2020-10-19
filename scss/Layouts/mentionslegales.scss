@@ -1,0 +1,202 @@
+@import '../Utils/variables.scss';
+@import '../Base/typography.scss';
+
+.contentMentionslLegales {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+    &__introduction {
+        width: 95%;
+        height: auto;
+        border-radius: 6px;
+        margin-left: auto;
+        margin-right: auto;
+        &__sectionIntro {
+            width: 100%;
+            height: auto;
+
+            &__h2 {
+                text-align: center;
+                font-family: 'julius_sans_oneregular';
+                font-size: 1.5em;
+                color: $white-color-link-nav;
+            }
+        }
+    }
+    &__content {
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+
+        &__sectionImpaire {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15%;
+
+            &__h2 {
+                text-align: left;
+                font-family: 'montserratmedium';
+                font-size: 1em;
+                color: $green-dom-web;
+                
+            }
+            &__p {
+                font-family: 'montserratregular';
+                font-size: 0.7em;
+                text-align: justify;
+                line-height: 180%;
+                
+
+                &__a {
+                    font-family: 'montserratlight';
+                    font-style: oblique;
+                    color: $green-dom-web;
+                    &:hover {
+                        color: $blue-dom-web;
+                    }
+                }
+            }
+        }
+        &__sectionPaire {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15%;
+
+            &__h2 {
+                text-align: left;
+                font-family: 'montserratmedium';
+                font-size: 1em;
+                color: $blue-dom-web;
+                
+            }
+            &__p {
+                font-family: 'montserratregular';
+                font-size: 0.7em;
+                text-align: justify;
+                line-height: 180%;
+
+                &__a {
+                    font-family: 'montserratlight';
+                    font-style: oblique;
+                    color: $blue-dom-web;
+                    &:hover {
+                        color: $green-dom-web;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .contentMentionslLegales {
+        
+        &__content {
+            margin-top: 10%;
+
+            &__sectionImpaire {
+                margin-bottom: 10%;
+
+                &__h2 {
+                    margin-bottom: 6%;
+                }
+                &__p { 
+                    letter-spacing: 0.1em;
+                    margin-bottom: 3%;
+                }
+    
+            }
+            &__sectionPaire {
+                margin-bottom: 10%; 
+                
+                &__h2 {
+                    margin-bottom: 6%;
+                 
+                }
+                &__p {
+                    letter-spacing: 0.1em;
+                    margin-bottom: 3%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1388px) { 
+    .contentMentionslLegales {
+        
+        &__content {
+            margin-top: 8%;
+
+            &__sectionImpaire {
+                margin-bottom: 7%;
+
+                &__h2 {
+                    font-size: 1.2em;    
+                    margin-bottom: 4%;
+
+                }
+                &__p {
+                    font-size: 0.75em;
+                    line-height: 180%;
+                    
+                }
+    
+            }
+            &__sectionPaire {
+                margin-bottom: 7%; 
+                
+                &__h2 {
+                    font-size: 1.2em;
+                    margin-bottom: 4%;
+                }
+                &__p {
+                    font-size: 0.75em;
+                    line-height: 180%;
+                
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1389px){ 
+    .contentMentionslLegales {
+        
+        &__content {
+            margin-top: 5%;
+
+            &__sectionImpaire {
+                margin-bottom: 5%;
+
+                &__h2 {
+                    font-size: 1.2em;    
+                    margin-bottom: 2%;
+
+                }
+                &__p {
+                    font-size: 0.8em;
+                    line-height: 200%;
+            
+                }
+    
+            }
+            &__sectionPaire {
+                margin-bottom: 5%; 
+                
+                &__h2 {
+                    font-size: 1.2em;
+                    margin-bottom: 2%;
+                }
+                &__p {
+                    font-size: 0.8em;
+                    line-height: 200%;
+    
+                }
+            }
+        }
+    }
+}

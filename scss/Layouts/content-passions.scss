@@ -1,0 +1,1119 @@
+@import '../Utils/variables.scss';
+@import '../Base/typography.scss';
+
+.passions {
+
+    &__firstSection {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        height: auto;
+        margin-top: 220px;
+        
+        
+        &__presentation {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: auto;
+
+            &__containerArticle {
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+
+                &__article {
+                    &__h2 {
+                        font-size: 1em;
+                        line-height: 1.4em;
+                        animation-name: animationTitle;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+
+                    &__p {
+                        font-size: 0.7em;
+                        text-align: justify;
+                        line-height: 180%;
+                        letter-spacing: 0.1em;
+
+                        &__spanBlue{
+                            color: $blue-dom-web;
+                            font-weight: bold;
+                        }
+                        &__spanGreen {
+                            color: $green-dom-web-dark;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+            &__containerPicture {
+                width: 99%;
+                margin-top: 30px;
+                text-align: center;
+                margin-bottom: 5%;
+                animation-name: animationPicture;
+                animation-duration: 1000ms;
+                animation-fill-mode: both;
+            }
+        }
+    }
+
+    &__secondSection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        
+        &__divAstroEtChant{
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: auto;
+
+            &__divastro {
+                display: flex;
+                flex-flow: column;
+                width: 100%;
+                height: auto;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                background-color: $blue-passions-day;
+    
+                &__picture {
+                    width: 99%;
+                    margin-top: 30px;
+                    text-align: center; 
+                    animation-name: animationPicture;
+                    animation-duration: 1000ms;
+                    animation-fill-mode: both; 
+                }
+    
+                &__article {
+                    width: 90%;
+                    margin-left: auto;
+                    margin-right: auto;
+    
+                    &__h2 {
+                        font-size: 1em;
+                        line-height: 1.4em;
+                        color: $white-color-link-nav;
+                        animation-name: animationTitle;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+    
+                    &__p {
+                        margin-bottom: 10%;
+                        font-size: 0.7em;
+                        text-align: justify;
+                        line-height: 180%;
+                        letter-spacing: 0.1em;
+                    }
+                
+                }
+            }
+    
+            &__divchant {
+                display: flex;
+                flex-flow: column;
+                width: 100%;
+                height: auto;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                background-color: $pink-passions-day;
+    
+                &__picture {
+                    width: 99%;
+                    margin-top: 30px;
+                    text-align: center; 
+                    margin-bottom: 5%;
+                    animation-name: animationPicture;
+                    animation-duration: 1000ms;
+                    animation-fill-mode: both;
+                }
+    
+                &__article {
+                    width: 90%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    
+                    &__h2 {
+                        font-size: 1em;
+                        line-height: 1.4em;
+                        color: $white-color-link-nav;
+                        animation-name: animationTitle;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+                    
+                    &__p {
+                        margin-bottom: 10%;
+                        font-size: 0.7em;
+                        text-align: justify;
+                        line-height: 180%;
+                        letter-spacing: 0.1em;
+                    }
+                    
+                }
+            }
+        }
+        
+        &__divpaysageetphoto {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: auto;
+
+            &__divpaysage {
+                display: flex;
+                flex-flow: column;
+                width: 100%;
+                height: auto;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                background-color: $green-passions-day;
+
+                &__picture {
+                    width: 99%;
+                    margin-top: 30px;
+                    text-align: center;
+                    animation-name: animationPicture;
+                    animation-duration: 1000ms;
+                    animation-fill-mode: both;
+                }
+
+                &__article {
+                    width: 90%;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    &__h2 {
+                        font-size: 1em;
+                        line-height: 1.4em;
+                        color: $white-color-link-nav;
+                        animation-name: animationTitle;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+                   
+                    &__p {
+                        margin-bottom: 10%;
+                        font-size: 0.7em;
+                        text-align: justify;
+                        line-height: 180%;
+                        letter-spacing: 0.1em;
+                    }
+                    
+                }
+            }
+
+            &__divphoto {
+                display: flex;
+                flex-flow: column;
+                width: 100%;
+                height: auto;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                background-color: $red-passions-day;
+
+                &__picture {
+                    width: 99%;
+                    margin-top: 30px;
+                    text-align: center;
+                    animation-name: animationPicture;
+                    animation-duration: 1000ms;
+                    animation-fill-mode: both;
+                }
+
+                &__article {
+                    width: 90%;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    &__h2 {
+                        font-size: 1em;
+                        line-height: 1.4em;
+                        color: $white-color-link-nav;
+                        animation-name: animationTitle;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+                    
+                    &__p {
+                        margin-bottom: 10%;
+                        font-size: 0.7em;
+                        text-align: justify;
+                        line-height: 180%;
+                        letter-spacing: 0.1em;
+                        
+                    }
+                    
+                }    
+            }
+        }      
+        
+    }
+    
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .passions {
+
+        &__firstSection {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: auto;
+            margin-top: 180px;
+            
+            
+            &__presentation {
+                display: flex;
+                flex-flow: column;
+                width: 100%;
+                height: auto;
+    
+                &__containerArticle {
+                    width: 90%;
+                    margin-left: auto;
+                    margin-right: auto;
+    
+                    &__article {
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+    
+                        &__p {
+                            font-size: 0.7em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+    
+                            &__spanBlue{
+                                color: $blue-dom-web;
+                                font-weight: bold;
+                            }
+                            &__spanGreen {
+                                color: $green-dom-web-dark;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+                &__containerPicture {
+                    width: 99%;
+                    margin-top: 30px;
+                    text-align: center;
+                    margin-bottom: 5%;
+                    animation-name: animationPicture;
+                    animation-duration: 1000ms;
+                    animation-fill-mode: both;
+                }
+            }
+        }
+    
+        &__secondSection {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            
+            &__divAstroEtChant{
+                display: flex;
+                flex-flow: column;
+                width: 100%;
+                height: auto;
+    
+                &__divastro {
+                    display: flex;
+                    flex-flow: column;
+                    width: 100%;
+                    height: auto;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    background-color: $blue-passions-day;
+        
+                    &__picture {
+                        width: 99%;
+                        margin-top: 30px;
+                        text-align: center; 
+                        animation-name: animationPicture;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both; 
+                    }
+        
+                    &__article {
+                        width: 90%;
+                        margin-left: auto;
+                        margin-right: auto;
+        
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            color: $white-color-link-nav;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+        
+                        &__p {
+                            margin-bottom: 10%;
+                            font-size: 0.7em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+                        }
+                    
+                    }
+                }
+        
+                &__divchant {
+                    display: flex;
+                    flex-flow: column;
+                    width: 100%;
+                    height: auto;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    background-color: $pink-passions-day;
+        
+                    &__picture {
+                        width: 99%;
+                        margin-top: 30px;
+                        text-align: center; 
+                        margin-bottom: 5%;
+                        animation-name: animationPicture;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+        
+                    &__article {
+                        width: 90%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            color: $white-color-link-nav;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        
+                        &__p {
+                            margin-bottom: 10%;
+                            font-size: 0.7em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+                        }
+                        
+                    }
+                }
+            }
+            
+            &__divpaysageetphoto {
+                display: flex;
+                flex-flow: column;
+                width: 100%;
+                height: auto;
+    
+                &__divpaysage {
+                    display: flex;
+                    flex-flow: column;
+                    width: 100%;
+                    height: auto;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    background-color: $green-passions-day;
+    
+                    &__picture {
+                        width: 99%;
+                        margin-top: 30px;
+                        text-align: center;
+                        animation-name: animationPicture;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+    
+                    &__article {
+                        width: 90%;
+                        margin-left: auto;
+                        margin-right: auto;
+    
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            color: $white-color-link-nav;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                       
+                        &__p {
+                            margin-bottom: 10%;
+                            font-size: 0.7em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+                        }
+                        
+                    }
+                }
+    
+                &__divphoto {
+                    display: flex;
+                    flex-flow: column;
+                    width: 100%;
+                    height: auto;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    background-color: $red-passions-day;
+    
+                    &__picture {
+                        width: 99%;
+                        margin-top: 30px;
+                        text-align: center;
+                        animation-name: animationPicture;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+    
+                    &__article {
+                        width: 90%;
+                        margin-left: auto;
+                        margin-right: auto;
+    
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            color: $white-color-link-nav;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        
+                        &__p {
+                            margin-bottom: 10%;
+                            font-size: 0.7em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+                            
+                        }
+                        
+                    }    
+                }
+            }      
+            
+        }
+        
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1388px) {
+    .passions {
+
+        &__firstSection {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: auto;
+            margin-top: 100px;
+            
+            
+            &__presentation {
+                display: flex;
+                flex-flow: column;
+                width: 100%;
+                height: auto;
+    
+                &__containerArticle {
+                    width: 90%;
+                    margin-left: auto;
+                    margin-right: auto;
+    
+                    &__article {
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+    
+                        &__p {
+                            font-size: 0.7em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+    
+                            &__spanBlue{
+                                color: $blue-dom-web;
+                                font-weight: bold;
+                            }
+                            &__spanGreen {
+                                color: $green-dom-web-dark;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+                &__containerPicture {
+                    width: 99%;
+                    margin-top: 30px;
+                    text-align: center;
+                    margin-bottom: 5%;
+                    animation-name: animationPicture;
+                    animation-duration: 1000ms;
+                    animation-fill-mode: both;
+                }
+            }
+        }
+    
+        &__secondSection {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            
+            &__divAstroEtChant{
+                display: flex;
+                flex-flow: row nowrap;
+                width: 100%;
+                height: auto;
+    
+                &__divastro {
+                    display: flex;
+                    flex-flow: column;
+                    width: 45%;
+                    height: auto;
+                    margin-top: 5%;
+                    margin-bottom: 2%;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    background-color: $blue-passions-day;
+                    border-radius: 6px;
+        
+                    &__picture {
+                        width: 99%;
+                        margin-top: 30px;
+                        text-align: center; 
+                        animation-name: animationPicture;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both; 
+
+                        &__img {
+                            width: 90%;
+                            height: auto;
+                        }
+                    }
+        
+                    &__article {
+                        width: 90%;
+                        margin-left: auto;
+                        margin-right: auto;
+
+                        
+        
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            color: $white-color-link-nav;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+        
+                        &__p {
+                            margin-bottom: 5%;
+                            font-size: 0.7em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+                        }
+                    
+                    }
+                }
+        
+                &__divchant {
+                    display: flex;
+                    flex-flow: column;
+                    width: 45%;
+                    height: auto;
+                    margin-top: 5%;
+                    margin-bottom: 2%;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    background-color: $pink-passions-day;
+                    border-radius: 6px;
+        
+                    &__picture {
+                        width: 99%;
+                        margin-top: 30px;
+                        text-align: center; 
+                        margin-bottom: 5%;
+                        animation-name: animationPicture;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+
+                        &__img {
+                            width: 90%;
+                            height: auto;
+                        }
+                    }
+        
+                    &__article {
+                        width: 90%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            color: $white-color-link-nav;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        
+                        &__p {
+                            margin-bottom: 5%;
+                            font-size: 0.7em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+                        }
+                        
+                    }
+                }
+            }
+            
+            &__divpaysageetphoto {
+                display: flex;
+                flex-flow: column;
+                width: 100%;
+                height: auto;
+    
+                &__divpaysage {
+                    display: flex;
+                    flex-flow: column;
+                    width: 94%;
+                    height: auto;
+                    margin-top: 1%;
+                    margin-bottom: 1%;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    background-color: $green-passions-day;
+                    border-radius: 6px;
+    
+                    &__picture {
+                        width: 99%;
+                        margin-top: 30px;
+                        text-align: center;
+                        animation-name: animationPicture;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+    
+                    &__article {
+                        width: 90%;
+                        margin-left: auto;
+                        margin-right: auto;
+    
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            color: $white-color-link-nav;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                       
+                        &__p {
+                            margin-bottom: 3%;
+                            font-size: 0.7em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+                        }
+                        
+                    }
+                }
+    
+                &__divphoto {
+                    display: flex;
+                    flex-flow: column;
+                    width: 94%;
+                    height: auto;
+                    margin-top: 2%;
+                    margin-bottom: 2%;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    background-color: $red-passions-day;
+                    border-radius: 6px;
+    
+                    &__picture {
+                        width: 99%;
+                        margin-top: 30px;
+                        text-align: center;
+                        animation-name: animationPicture;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+    
+                    &__article {
+                        width: 90%;
+                        margin-left: auto;
+                        margin-right: auto;
+    
+                        &__h2 {
+                            font-size: 1em;
+                            line-height: 1.4em;
+                            color: $white-color-link-nav;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        
+                        &__p {
+                            margin-bottom: 3%;
+                            font-size: 0.7em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+                            
+                        }
+                        
+                    }    
+                }
+            }      
+            
+        }
+        
+    }
+}
+
+@media screen and (min-width: 1389px){ 
+    .passions {
+
+        &__firstSection {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            height: auto;
+            margin-top: 30px;
+            
+            
+            &__presentation {
+                display: flex;
+                flex-flow: row nowrap;
+                width: 100%;
+                height: auto;
+    
+                &__containerArticle {
+                    width: 90%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-left: 2%;
+                    padding-right: 2%;
+                    
+    
+                    &__article {
+                        &__h2 {
+                            font-size: 1.2em;
+                            line-height: 1.4em;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+    
+                        &__p {
+                            font-size: 0.8em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+    
+                            &__spanBlue{
+                                color: $blue-dom-web;
+                                font-weight: bold;
+                            }
+                            &__spanGreen {
+                                color: $green-dom-web-dark;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+                &__containerPicture {
+                    width: 40%;
+                    margin-top: 20px;
+                    text-align: center;
+                    margin-bottom: 5%;
+                    animation-name: animationPicture;
+                    animation-duration: 1000ms;
+                    animation-fill-mode: both;
+                    
+                }
+            }
+        }
+    
+        &__secondSection {
+            display: flex;
+            flex-flow: row nowrap ;
+            width: 100%;
+            height: auto;
+            
+            &__divAstroEtChant{
+                display: flex;
+                flex-flow: row nowrap;
+                width: 50%;
+                height: auto;
+                margin-left: 2%;
+    
+                &__divastro {
+                    display: flex;
+                    flex-flow: column;
+                    width: 50%;
+                    height: auto;
+                    margin-top: 5%;
+                    margin-bottom: 2%;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    background-color: $blue-passions-day;
+                    border-radius: 6px;
+        
+                    &__picture {
+                        width: 99%;
+                        margin-top: 30px;
+                        text-align: center; 
+                        animation-name: animationPicture;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both; 
+
+                        &__img {
+                            width: 90%;
+                            height: auto;
+                        }
+                    }
+        
+                    &__article {
+                        width: 90%;
+                        margin-left: auto;
+                        margin-right: auto;
+
+                        
+        
+                        &__h2 {
+                            font-size: 1.2em;
+                            line-height: 1.4em;
+                            color: $white-color-link-nav;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+        
+                        &__p {
+                            margin-bottom: 10%;
+                            font-size: 0.8em;
+                            text-align: left;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+                        }
+                    
+                    }
+                }
+        
+                &__divchant {
+                    display: flex;
+                    flex-flow: column;
+                    width: 50%;
+                    height: auto;
+                    margin-top: 5%;
+                    margin-bottom: 2%;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    background-color: $pink-passions-day;
+                    border-radius: 6px;
+        
+                    &__picture {
+                        width: 99%;
+                        margin-top: 30px;
+                        text-align: center; 
+                        margin-bottom: 5%;
+                        animation-name: animationPicture;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+
+                        &__img {
+                            width: 90%;
+                            height: auto;
+                        }
+                    }
+        
+                    &__article {
+                        width: 90%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        
+                        &__h2 {
+                            font-size: 1.2em;
+                            line-height: 1.4em;
+                            color: $white-color-link-nav;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        
+                        &__p {
+                            margin-bottom: 10%;
+                            font-size: 0.8em;
+                            text-align: left;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+                        }
+                        
+                    }
+                }
+            }
+            
+            &__divpaysageetphoto {
+                display: flex;
+                flex-flow: column;
+                width: 100%;
+                height: auto;
+    
+                &__divpaysage {
+                    display: flex;
+                    flex-flow: column;
+                    width: 94%;
+                    height: auto;
+                    margin-top: 2.5%;
+                    margin-bottom: 1%;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    background-color: $green-passions-day;
+                    border-radius: 6px;
+    
+                    &__picture {
+                        width: 99%;
+                        margin-top: 30px;
+                        text-align: center;
+                        animation-name: animationPicture;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+    
+                    &__article {
+                        width: 90%;
+                        margin-left: auto;
+                        margin-right: auto;
+    
+                        &__h2 {
+                            font-size: 1.2em;
+                            line-height: 1.4em;
+                            color: $white-color-link-nav;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                       
+                        &__p {
+                            margin-bottom: 3%;
+                            font-size: 0.8em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+                        }
+                        
+                    }
+                }
+    
+                &__divphoto {
+                    display: flex;
+                    flex-flow: column;
+                    width: 94%;
+                    height: auto;
+                    margin-top: 2%;
+                    margin-bottom: 2%;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    background-color: $red-passions-day;
+                    border-radius: 6px;
+    
+                    &__picture {
+                        width: 99%;
+                        margin-top: 30px;
+                        text-align: center;
+                        animation-name: animationPicture;
+                        animation-duration: 1000ms;
+                        animation-fill-mode: both;
+                    }
+    
+                    &__article {
+                        width: 90%;
+                        margin-left: auto;
+                        margin-right: auto;
+    
+                        &__h2 {
+                            font-size: 1.2em;
+                            line-height: 1.4em;
+                            color: $white-color-link-nav;
+                            animation-name: animationTitle;
+                            animation-duration: 1000ms;
+                            animation-fill-mode: both;
+                        }
+                        
+                        &__p {
+                            margin-bottom: 3%;
+                            font-size: 0.8em;
+                            text-align: justify;
+                            line-height: 180%;
+                            letter-spacing: 0.1em;
+                            
+                        }
+                        
+                    }    
+                }
+            }      
+            
+        }
+        
+    }
+}
+
+@keyframes animationTitle {
+    0% {
+        opacity: 0;
+        transform: translateY(15%);
+    }
+    25% {
+        opacity: 0.25;
+        transform: translateY(8%);
+    }
+    65% {
+        opacity: 0.75;
+        transform: translateY(5%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes animationPicture {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}

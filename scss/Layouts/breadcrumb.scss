@@ -1,0 +1,36 @@
+@import '../Utils/variables.scss';
+@import '../Base/typography.scss';
+
+.breadcrumbA{
+    color: $white-color-link-nav;
+    font-family: 'montserratthin';
+    font-size: smaller;
+
+    &:hover {
+        color: $blue-dom-web;
+    }
+
+    &:active {
+        color: $green-dom-web;
+    }
+}
+
+.breadcrumbPicture {
+    width: 25px;
+    height: 25px;
+}
+
+.breadcrumbSeparator {
+    color: $green-dom-web;
+    font-family: 'montserratmedium';
+    font-weight: bold;
+}
+
+.road {
+    color: $white-color-link-nav;
+    font-family: 'montserratmedium';
+}
+
+.pictureHome {
+    margin-top: 20px;
+}

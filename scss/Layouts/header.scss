@@ -1,0 +1,330 @@
+@import '../Utils/variables.scss';
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position-y: center;
+    margin-top: -0.9%;
+
+    &__banner {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-top: 25px;
+
+        &__logo {
+            width: 12%;
+            margin-left: 15%;
+            margin-top: 2%;
+
+            &__img{
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+        &__title {
+            width: 60%;
+            margin-left: 10%;
+
+            &__h1 {
+                font-size: 1em;
+                line-height: 120%;
+            }
+        }
+    }
+
+    &__ariane {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        width: 100%;
+        height: 40px;
+        margin-left: 2%;
+
+        &__columnLeft {
+            width: 20%;
+            text-align: right;
+            &__a {
+                color: $white-color-link-nav;
+                font-family: 'montserratthin';
+                font-size: smaller;
+                
+                &:hover {
+                    color: $blue-dom-web;
+                }
+
+                &:active {
+                    color: $green-dom-web;
+                }
+
+                &__picture {
+                    width: 30px;
+                    height: 30px;
+                    margin-top: -7px;
+                    margin-right: 10px;
+
+                }
+            }
+        }
+
+        &__columnCenter {
+            width: 80%;
+        }
+
+        &__columnRight {
+            width: 0%;
+        }
+    }
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .header {
+        width: 100%;
+        height: 180px;
+        background-size: cover;
+        background-position-y: center;
+        margin-top: -0.9%;
+    
+        &__banner {
+            display: flex;
+            flex-wrap: nowrap;
+            width: 100%;
+            margin-top: 25px;
+    
+            &__logo {
+                width: 12%;
+                margin-left: 15%;
+                margin-top: 2%;
+    
+                &__img{
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+    
+            &__title {
+                width: 60%;
+                margin-left: 10%;
+    
+                &__h1 {
+                    font-size: 1em;
+                    line-height: 120%;
+                }
+            }
+        }
+    
+        &__ariane {
+            display: flex;
+            flex-wrap: nowrap;
+            margin-top: 8%;
+            width: 80%;
+            height: 40px;
+            margin-left: 20%;
+    
+            &__columnLeft {
+                width: 20%;
+                text-align: right;
+                &__a {
+                    color: $white-color-link-nav;
+                    font-family: 'montserratthin';
+                    font-size: smaller;
+                    
+                    &:hover {
+                        color: $blue-dom-web;
+                    }
+    
+                    &:active {
+                        color: $green-dom-web;
+                    }
+    
+                    &__picture {
+                        width: 30px;
+                        height: 30px;
+                        margin-top: -7px;
+                        margin-right: 10px;
+    
+                    }
+                }
+            }
+    
+            &__columnCenter {
+                width: 80%;
+            }
+    
+            &__columnRight {
+                width: 0%;
+            }
+        }
+    
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1388px) {
+    .header {
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-position-y: center;
+        margin-top: -0.9%;
+    
+        &__banner {
+            display: flex;
+            flex-wrap: nowrap;
+            width: 100%;
+           
+    
+            &__logo {
+                width: 12%;
+                margin-left: 10%;
+                margin-top: 2%;
+    
+                &__img{
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+    
+            &__title {
+                width: 50%;
+                margin-left: 1%;
+                margin-top: 2%;
+    
+                &__h1 {
+                    font-size: 1.5em;
+                    line-height: 120%;
+                }
+            }
+        }
+    
+        &__ariane {
+            display: flex;
+            flex-wrap: nowrap;
+            margin-top: 20px;
+            width: 80%;
+            height: 40px;
+            margin-top: 5%;
+            margin-left: 20%;
+    
+            &__columnLeft {
+                width: 20%;
+                text-align: right;
+                &__a {
+                    color: $white-color-link-nav;
+                    font-family: 'montserratthin';
+                    font-size: smaller;
+                    
+                    &:hover {
+                        color: $blue-dom-web;
+                    }
+    
+                    &:active {
+                        color: $green-dom-web;
+                    }
+    
+                    &__picture {
+                        width: 30px;
+                        height: 30px;
+                        margin-top: -7px;
+                        margin-right: 10px;
+    
+                    }
+                }
+            }
+    
+            &__columnCenter {
+                width: 80%;
+            }
+    
+            &__columnRight {
+                width: 0%;
+            }
+        }
+    
+    }
+}
+
+@media screen and (min-width: 1389px){
+    .header {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position-y: center;
+        margin-top: -0.9%;
+    
+        &__banner {
+            display: flex;
+            flex-wrap: nowrap;
+            width: 100%;
+            margin-top: 25px;
+    
+            &__logo {
+                width: 12%;
+                margin-left: 2%;
+                margin-top: 2%;
+    
+                &__img{
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+    
+            &__title {
+                width: 25%;
+                margin-left: 5%;
+                margin-top: 2%;
+                &__h1 {
+                    font-size: 1.5em;
+                    line-height: 120%;
+                }
+            }
+        }
+    
+        &__ariane {
+            display: flex;
+            flex-wrap: nowrap;
+            margin-top: 20px;
+            width: 80%;
+            height: 40px;
+            margin-left: 30%;
+    
+            &__columnLeft {
+                width: 20%;
+                text-align: right;
+                &__a {
+                    color: $white-color-link-nav;
+                    font-family: 'montserratthin';
+                    font-size: smaller;
+                    
+                    &:hover {
+                        color: $blue-dom-web;
+                    }
+    
+                    &:active {
+                        color: $green-dom-web;
+                    }
+    
+                    &__picture {
+                        width: 30px;
+                        height: 30px;
+                        margin-top: -7px;
+                        margin-right: 10px;
+    
+                    }
+                }
+            }
+    
+            &__columnCenter {
+                width: 80%;
+            }
+    
+            &__columnRight {
+                width: 0%;
+            }
+        }
+    
+    }
+}
+

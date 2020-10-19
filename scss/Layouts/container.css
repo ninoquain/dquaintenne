@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0;
+    margin: 0; } }
+@media screen and (min-width: 768px) and (max-width: 1388px) {
+  .container {
+    width: 100%;
+    padding: 0;
+    margin: 0; } }
+@media screen and (min-width: 1389px) {
+  .container {
+    width: 100%;
+    padding: 0;
+    margin: 0; } }
+
+/*# sourceMappingURL=container.css.map */
