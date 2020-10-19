@@ -7,7 +7,7 @@
     if ($url == '') {
         require 'home.php';
     } elseif ($url[0] == 'accueil') {
-        require 'homes.php';
+        require 'home.php';
     } elseif ($url[0] == 'développement-web' || $url[0] == 'developpement-web' || $url[0] == 'developpement web' || $url[0] == 'développement web'|| $url[0] == 'developpementweb' || $url[0] == 'développementweb') {
         require 'devlweb.php';
     } elseif ($url[0] == 'webdesign' || $url[0] == 'web-design' || $url[0] == 'web design') {

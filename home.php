@@ -40,6 +40,18 @@
 	</script>
 </head>
 <body>
-
+<div class="container">
+            <div><?php require_once('elemsphp/header.php'); ?></div>
+            <div>
+                <?php 
+                    require_once('elemsphp/content-home.php');
+                    require_once('elemsphp/footer.php');
+                ?>
+            </div>
+            
+        </div>
+        <script>
+            getStyleBodyAndContainer();
+        </script>
 </body>
 </html>
