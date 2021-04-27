@@ -1,2 +1,2 @@
 # dquaintenne
-Mon site web avec JavaScript, Bootstrap, SASS, HTML5 et PHP
+Mon site web avec JavaScript, SASS, HTML5 et PHP
